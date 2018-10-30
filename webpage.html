@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="logic.js"></script>
+</head>
+
+<body>
+    <h1>Integra Quiz</h1>
+
+    <form id="quiz" name="quiz">
+        <p>In which year the Integra company is founded?</p>
+        <input id="q" type="text" name="ques1">
+
+        <p>Where Integra headoffice is located?</p>
+        <input id="rb" type="radio" name="ques2" value="chennai">Chennai<br>
+        <input id="rb" type="radio" name="ques2" value="pondicherry">Pondicherry<br>
+
+        <p>Integra is one of the leading ___________ companies.</p>
+        <input id="rb" type="radio" name="ques3" value="digital content solutions">Digital Content Solutions<br>
+        <input id="rb" type="radio" name="ques3" value="it company">IT Company<br><br><br>
+
+        <input id="button" type="button" value="Finished" onclick="check();">
+    </form>
+
+    <div id="after">
+        <p id="message"></p>
+        <p id="cort"></p>
+        <img id="pic">
+    </div>
+
+
+
+</body>
+</html>
