@@ -61,9 +61,12 @@ h1
 }
 
 
+@media(max-width: 1160px)
+{
+  #after{
+    margin-top: 550px;
+    float: left;
+    margin-left: -535px;
+  }
 
-#rb
- {
-	display: inline;
-} 
-
+}
